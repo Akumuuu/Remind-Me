@@ -9,7 +9,7 @@ function ThemeSwitcher() {
   const [mounted, setMounted] = useState(false);
 
   // useEffect only runs ont he client, so now ew can safely show the UI
-  // in this trick we arer avoiding hydration errors
+  // in this trick we ares avoiding hydration errors
   useEffect(() => {
     setMounted(true);
   }, []);
